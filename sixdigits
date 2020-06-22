@@ -1,0 +1,19 @@
+import java.util.*;
+public class Palindrome {
+
+	public static void main(String[] args) {
+		int num1= 999;
+		int num2=999;
+		int ans=0;
+		for (int i=num1; i>100;i--) {
+			for (int j=num2; j>100; j--) {
+				ans= j*i;
+				Integer.toString(ans);
+				System.out.println(ans);
+			
+			}
+		
+		}
+			
+	}
+}
